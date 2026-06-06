@@ -71,7 +71,21 @@ gcc main.c -o banking $(mysql_config --cflags --libs)
 * Admin Dashboard
 * GUI Interface
 * Multi-file Project Structure
+## Database Setup
+
+Login to MySQL:
+
+```bash
+sudo mysql -u root
+```
+
+Execute:
+
+```sql
+SOURCE schema.sql;
+```
+
+This will automatically create the required database and tables.
 
 ## Author
-
-Tharun 
+Amgoth Tharun 

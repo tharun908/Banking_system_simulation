@@ -1,4 +1,4 @@
-#Banking System Simulation
+# Banking System Simulation
 
 ## Overview
 
@@ -73,4 +73,5 @@ gcc main.c -o banking $(mysql_config --cflags --libs)
 * Multi-file Project Structure
 
 ## Author
-Amgoth Tharun
+
+Tharun Kanna

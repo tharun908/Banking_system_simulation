@@ -74,4 +74,4 @@ gcc main.c -o banking $(mysql_config --cflags --libs)
 
 ## Author
 
-Tharun Kanna
+Tharun 
